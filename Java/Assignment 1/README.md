@@ -167,5 +167,9 @@ University project focused on Java, JavaFX, and Object-Oriented Programming.
 ---
 
 <p align="center">
-  <b>Built with Java ☕ and a passion for learning. 🚀</b>
+  <b>Built with Java ☕</b>
+</p>
+
+<p align="center">
+  © 2026 Ilya Kubyshenko
 </p>

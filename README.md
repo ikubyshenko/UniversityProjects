@@ -33,7 +33,7 @@ My main areas of interest include:
 
 | Project | Description | Technologies | Status |
 |---|---|---|---|
-| **Database Management System** | Database applications and CRUD operations. | Python, Java, PostgreSQL | Finished |
+| **Database Management System** | Database applications and CRUD operations. | <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=white" alt="Python">, Java, PostgreSQL | Finished |
 | **Java/Assignment 1** | An application for managing products, users, and orders. | Java, JavaFX | In Progress |
 > This repository is continuously updated as I complete new assignments and develop new projects.
 

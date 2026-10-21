@@ -134,7 +134,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                ik.ku.ecommercesystem.ecommercefx/ik.ku.ecommercesystem.ecommercefx.mainApplication
+                                com.study/com.study.mainApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

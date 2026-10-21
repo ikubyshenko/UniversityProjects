@@ -16,7 +16,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane id="us" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ik.ku.ecommercesystem.ecommercefx.mainController">
+<AnchorPane id="us" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.study.mainController">
    <children>
       <Text layoutX="275.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JafaFX app for Object Oriented assigment 1">
          <font>

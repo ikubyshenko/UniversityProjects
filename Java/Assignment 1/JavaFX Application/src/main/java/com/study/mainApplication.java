@@ -3,6 +3,7 @@ package com.study;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -12,6 +13,8 @@ public class mainApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(mainApplication.class.getResource("main.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
+        Image icon = new Image(getClass().getResourceAsStream("/assets/shopLogo.png"));
+        stage.getIcons().add(icon);
         stage.setTitle("ECommerceSystem");
         stage.setScene(scene);
         stage.setResizable(false);

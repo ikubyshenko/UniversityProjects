@@ -1,4 +1,4 @@
-module ik.ku.ecommercesystem.ecommercefx {
+module com.study {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -12,6 +12,6 @@ module ik.ku.ecommercesystem.ecommercefx {
     requires com.almasb.fxgl.all;
     requires java.desktop;
 
-    opens ik.ku.ecommercesystem.ecommercefx to javafx.fxml;
-    exports ik.ku.ecommercesystem.ecommercefx;
+    opens com.study to javafx.fxml;
+    exports com.study;
 }

@@ -33,7 +33,7 @@ My main areas of interest include:
 
 | Project | Description | Technologies | Status |
 |---|---|---|---|
-| **Database Management System** | Database applications and CRUD operations. | <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=white" alt="Python"> <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java"> <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=plastic&logo=postgresql&color=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=plastic&logo=mongodb&color=white" alt="MongoDB"> | Finished |
+| **Database Management System** | Database applications and CRUD operations. FinalExam project has lost | <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=white" alt="Python"> <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java"> <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=plastic&logo=postgresql&color=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=plastic&logo=mongodb&color=white" alt="MongoDB"> | Finished |
 | **Java/Assignment 1** | An application for managing products, users, and orders. | <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java"> <img src="https://img.shields.io/badge/JavaFX-brightgreen?style=plastic&logo=coffeescript&logoColor=orange&color=white" alt="JavaFX"> | In Progress |
 > This repository is continuously updated as I complete new assignments and develop new projects.
 

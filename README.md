@@ -40,10 +40,10 @@ My main areas of interest include:
 ## 🧰 Technologies & Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=blue" alt="Python">
-  <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&color=orange" alt="Java">
-  <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=plastic&logo=postgresql&color=blue" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=plastic&logo=mongodb&color=green" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java">
+  <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=plastic&logo=postgresql&color=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=plastic&logo=mongodb&color=white" alt="MongoDB">
   <img src="https://img.shields.io/badge/Git-brightgreen?style=plastic&logo=git&logoColor=orange&color=white" alt="Git">
   <img src="https://img.shields.io/badge/GitHub-brightgreen?style=plastic&logo=github&logoColor=black&color=white" alt="GitHub">
 </p>

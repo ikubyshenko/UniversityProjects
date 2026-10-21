@@ -40,12 +40,12 @@ My main areas of interest include:
 ## 🧰 Technologies & Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=blue" alt="Python">
+  <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&color=orange" alt="Java">
+  <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=plastic&logo=postgresql&color=blue" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=plastic&logo=mongodb&color=green" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Git-brightgreen?style=plastic&logo=git&logoColor=orange&color=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-brightgreen?style=plastic&logo=github&logoColor=black&color=white" alt="GitHub">
 </p>
 
 Other tools and technologies may be used depending on the project.

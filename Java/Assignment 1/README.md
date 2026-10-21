@@ -182,7 +182,7 @@ Make sure you have installed:
    git checkout main
 ```
 
-   > And then enter in the terminal
+   > And then in project path in IDEA enter in the terminal
 
 ```Bash
 mvn clean javafx:run

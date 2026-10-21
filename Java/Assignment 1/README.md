@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&color=orange" alt="Java">
-  <img src="https://img.shields.io/badge/JavaFX-Application-blue?style=for-the-badge" alt="JavaFX">
+  <img src="https://img.shields.io/badge/brightgreen?style=plastic&logo=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F30%2FJavaFX_text_logo.png%3Futm_source%3Dcommons.wikimedia.org%26utm_campaign%3Dindex%26utm_content%3Doriginal&color=orange" alt="JavaFX">
   <img src="https://img.shields.io/badge/Maven-brightgreen?style=plastic&logo=apachemaven&logoColor=black&color=white" alt="Maven">
   <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" alt="Status">
 </p>

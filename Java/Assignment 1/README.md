@@ -111,7 +111,29 @@ Console Application/
         │       ├── Electronic.java
         │       ├── Clothing.java
         │       └── Order.java
+
 JavaFX Application/
+├── pom.xml
+├── .mvn
+├── .idea
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/study
+        │       ├── user.java
+        │       ├── customer.java
+        │       ├── employee.java
+        │       ├── product.java
+        │       ├── book.java
+        │       ├── electronic.java
+        │       ├── clothing.java
+        │       ├── order.java
+        │       ├── Launcher.java
+        │       ├── mainApplication.java
+        │       ├── ordersController.java
+        │       ├── usersController.java
+        │       └── appData.java
+
 ```
 
 ## 🚀 Getting Started
@@ -126,15 +148,29 @@ Make sure you have installed:
 
 ### Run the Application
 
-1. Clone or download this repository.
-2. Open the project in IntelliJ IDEA.
-3. Allow Maven to load the dependencies specified in `pom.xml`.
-4. Make sure the JavaFX configuration is correct.
-5. Run the application's main class.
+1. Clone this repository.
+   > You have 2 ways
+   > Clone the entire repository completely
+   ```Bash
+   git clone https://github.com/ikubyshenko/UniversityProjects.git
+   ```
+   > Or clone only console app
+   ```Bash
+   git clone --filter=blob:none --no-checkout https://github.com/ikubyshenko/UniversityProjects.git
+   cd UniversityProjects
+   git sparse-checkout init --cone
+   git sparse-checkout set "Java/Assignment 1/Console Application"
+   git checkout main
+   ```
+3. Open the project in IntelliJ IDEA.
+4. Allow Maven to load the dependencies specified in `pom.xml`.
+5. Make sure the JavaFX configuration is correct (JDK 25).
+6. Run the application's Main.java:
+
 
 If the project is configured with the Maven JavaFX plugin, you may be able to launch it from the terminal using:
 
-```bash
+```Bash
 mvn clean javafx:run
 ```
 

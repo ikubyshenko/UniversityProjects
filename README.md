@@ -1,9 +1,9 @@
 # 🎓 University Projects
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In_progress-brightgreen?style=social&color=purple" alt="University Projects">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-Software%20Development-blue?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/Projects-University-brightgreen?style=plastic&color=purple" alt="University Projects">
+  <img src="https://img.shields.io/badge/Status-In_Progress-brightgreen?style=plastic&color=orange" alt="Status">
+  <img src="https://img.shields.io/badge/Focus-Software_Development-brightgreen?style=plastic&color=blue" alt="Focus">
 </p>
 
 <p align="center">

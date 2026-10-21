@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&color=orange" alt="Java">
   <img src="https://img.shields.io/badge/JavaFX-brightgreen?style=plastic&logo=coffeescript&color=orange" alt="JavaFX">
   <img src="https://img.shields.io/badge/Maven-brightgreen?style=plastic&logo=apachemaven&logoColor=black&color=white" alt="Maven">
-  <img src="https://img.shields.io/badge/Finished-brightgreen?style=plastic&color=green" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Finished-brightgreen?style=plastic&color=green" alt="Status">
 </p>
 
 <p align="center">

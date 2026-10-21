@@ -23,6 +23,10 @@ The application provides a graphical user interface built with JavaFX. It allows
 
 The project focuses on practicing object-oriented design, inheritance, encapsulation, collections, and event-driven programming.
 
+## ❗ Attention
+
+The console application is done correctly, the JavaFX version is crooked, the file names are "orders" instead of "Orders", the comments in Russian are "They were made for me personally". The JavaFX project is not so much for handing over work, as for personal development and learning how it works in principle. I'm unlikely to refine and correct it.
+
 ## ✨ Features
 
 ### 👥 User Management

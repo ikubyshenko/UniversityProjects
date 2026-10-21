@@ -150,6 +150,7 @@ Make sure you have installed:
 
 1. Clone this repository.
    > You have 2 ways
+   > 
    > Clone the entire repository completely
    
    ```Bash

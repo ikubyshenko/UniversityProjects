@@ -1,7 +1,7 @@
 # 🛒 E-Commerce Management System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java">
   <img src="https://img.shields.io/badge/JavaFX-Application-blue?style=for-the-badge" alt="JavaFX">
   <img src="https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven">
   <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" alt="Status">

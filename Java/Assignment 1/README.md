@@ -196,7 +196,8 @@ The application uses JavaFX to provide a graphical interface for navigating betw
 
 The interface uses a navy and orange color scheme to maintain a consistent visual style.
 
-*Screenshots i will add later.*
+<img width="1002" height="732" alt="{05C70205-8513-4FAD-BBEB-BE0108C4873F}" src="https://github.com/user-attachments/assets/048c04af-3294-4920-a4c2-a8c976acdccf" />
+
 
 ## 🎯 Learning Objectives
 

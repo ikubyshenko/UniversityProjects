@@ -151,9 +151,11 @@ Make sure you have installed:
 1. Clone this repository.
    > You have 2 ways
    > Clone the entire repository completely
+   
    ```Bash
    git clone https://github.com/ikubyshenko/UniversityProjects.git
    ```
+   
    > Or clone only console app
    ```Bash
    git clone --filter=blob:none --no-checkout https://github.com/ikubyshenko/UniversityProjects.git
@@ -162,13 +164,24 @@ Make sure you have installed:
    git sparse-checkout set "Java/Assignment 1/Console Application"
    git checkout main
    ```
+   
 3. Open the project in IntelliJ IDEA.
 4. Allow Maven to load the dependencies specified in `pom.xml`.
 5. Make sure the JavaFX configuration is correct (JDK 25).
 6. Run the application's Main.java:
 
 
-If the project is configured with the Maven JavaFX plugin, you may be able to launch it from the terminal using:
+If you want to run a JavaFX project, and you don't want to clone everything, then you need to enter:
+
+```Bash
+   git clone --filter=blob:none --no-checkout https://github.com/ikubyshenko/UniversityProjects.git
+   cd UniversityProjects
+   git sparse-checkout init --cone
+   git sparse-checkout set "Java/Assignment 1/JavaFX Application"
+   git checkout main
+```
+
+And then enter in the terminal
 
 ```Bash
 mvn clean javafx:run

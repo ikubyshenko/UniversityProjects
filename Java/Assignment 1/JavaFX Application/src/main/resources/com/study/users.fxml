@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ik.ku.ecommercesystem.ecommercefx.usersController">
+   <children>
+      <AnchorPane id="us" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" layoutY="14.0" minHeight="60" prefHeight="60" prefWidth="1000.0" spacing="16" style="-fx-background-color: white;">
+               <padding>
+                  <Insets bottom="0" left="24" right="24" top="0" />
+               </padding>
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#575757" visible="false">
+                     <font>
+                        <Font name="System Regular" size="14" />
+                     </font>
+                     <padding>
+                        <Insets bottom="8" left="8" right="8" top="8" />
+                     </padding>
+                  </Button>
+                  <HBox alignment="CENTER_LEFT" spacing="8">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#actionMain" style="-fx-background-color: transperent;">
+                           <graphic>
+                              <SVGPath content="M2 3h3l2.6 12.4a1 1 0 0 0 1 .6h9.2a1 1 0 0 0 1-.8L21 7H6 M8 20a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0 M16 20a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" fill="TRANSPARENT" stroke="#FB991C" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                        <Label text="EcommerceSystem" textFill="#FB991C">
+                           <font>
+                              <Font name="System Bold" size="20" />
+                           </font>
+                           <padding>
+                              <Insets bottom="0" left="4" right="0" top="0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="8">
+                     <padding>
+                        <Insets bottom="0" left="16" right="0" top="0" />
+                     </padding>
+                     <children>
+                        <Button id="usersButton" fx:id="usersButton" mnemonicParsing="false" onAction="#actionUser" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Users" textFill="#575757">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="16" right="16" top="8" />
+                           </padding>
+                        </Button>
+                        <Button id="productsButton" fx:id="productsButton" mnemonicParsing="false" onAction="#actionProducts" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Products" textFill="#575757">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="16" right="16" top="8" />
+                           </padding>
+                        </Button>
+                        <Button id="ordersButton" fx:id="ordersButton" mnemonicParsing="false" onAction="#actionOrders" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Orders" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="16" right="16" top="8" />
+                           </padding>
+                        </Button>
+                        <Button id="neworderButton" fx:id="neworderButton" mnemonicParsing="false" onAction="#actionNeworder" style="-fx-background-color: #FB991C; -fx-background-radius: 100; -fx-cursor: hand;" text="New order" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="9" left="20" right="20" top="9" />
+                           </padding>
+                           <graphic>
+                              <SVGPath content="M12 5v14M5 12h14" fill="TRANSPARENT" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Region HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FB991C; -fx-background-radius: 100; -fx-cursor: hand;" text="My Account  ▾" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14" />
+                     </font>
+                     <padding>
+                        <Insets bottom="9" left="20" right="20" top="9" />
+                     </padding>
+                  </Button>
+                  <StackPane>
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="8" right="8" top="8" />
+                           </padding>
+                           <graphic>
+                              <SVGPath content="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z" fill="TRANSPARENT" stroke="#022539" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                        <Label alignment="CENTER" minHeight="16" minWidth="16" mouseTransparent="true" style="-fx-background-color: #FB991C; -fx-background-radius: 100;" text="2" textFill="WHITE" StackPane.alignment="TOP_RIGHT">
+                           <font>
+                              <Font name="System Bold" size="10" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <StackPane>
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="8" right="8" top="8" />
+                           </padding>
+                           <graphic>
+                              <SVGPath content="M2 3h3l2.6 12.4a1 1 0 0 0 1 .6h9.2a1 1 0 0 0 1-.8L21 7H6 M8 20a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0 M16 20a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" fill="TRANSPARENT" stroke="#022539" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                        <Label alignment="CENTER" minHeight="16" minWidth="16" mouseTransparent="true" style="-fx-background-color: #FB991C; -fx-background-radius: 100;" text="3" textFill="WHITE" StackPane.alignment="TOP_RIGHT">
+                           <font>
+                              <Font name="System Bold" size="10" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <VBox layoutY="538.0" prefHeight="128.0" prefWidth="1000.0" spacing="24" style="-fx-background-color: #F8F8F8;">
+               <padding>
+                  <Insets bottom="20" left="48" right="48" top="48" />
+               </padding>
+               <children>
+                  <HBox spacing="80">
+                     <children>
+                        <VBox prefWidth="320" spacing="14">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" spacing="10" />
+                              <HBox alignment="CENTER_LEFT" spacing="10" />
+                           </children>
+                        </VBox>
+                        <VBox prefWidth="360" spacing="12" HBox.hgrow="ALWAYS">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" spacing="8" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <Separator />
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Label text="  2026 Ilya Kubyshenko / ISU(US) 24 / Assigment 1" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                        </Label>
+                        <Region HBox.hgrow="ALWAYS" />
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="8" right="8" top="8" />
+                           </padding>
+                           <graphic>
+                              <SVGPath content="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="TRANSPARENT" stroke="#FB991C" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" textFill="#575757">
+                           <font>
+                              <Font name="System Regular" size="14" />
+                           </font>
+                           <padding>
+                              <Insets bottom="8" left="8" right="8" top="8" />
+                           </padding>
+                           <graphic>
+                              <SVGPath content="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z M16 11.4a4 4 0 1 1-7.9 1.2A4 4 0 0 1 16 11.4z M17.5 6.5h.01" fill="TRANSPARENT" stroke="#FB991C" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" layoutX="459.0" layoutY="98.0" maxWidth="Infinity" text="Users" textFill="#022539">
+               <font>
+                  <Font name="System Bold" size="32" />
+               </font>
+            </Label>
+            <TableView fx:id="usersTable" fixedCellSize="56" layoutX="66.0" layoutY="179.0" prefHeight="440" prefWidth="684.0" style="-fx-background-color: white; -fx-background-radius: 0; -fx-border-color: #E2E2E2; -fx-border-radius: 0;">
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+               <columns>
+                  <TableColumn fx:id="nameColumn" prefWidth="60" text="Name" />
+                  <TableColumn fx:id="emailColumn" prefWidth="291.0" text="Email" />
+                  <TableColumn fx:id="passwordColumn" prefWidth="174.0" text="Password" />
+                  <TableColumn fx:id="roleColumn" prefWidth="135.0" text="Role" />
+               </columns>
+            </TableView>
+            <VBox layoutX="760.0" layoutY="179.0" minWidth="193.0" prefHeight="440.0" prefWidth="234.0" spacing="14" style="-fx-background-color: white; -fx-background-radius: 12; -fx-border-color: #E2E2E2; -fx-border-radius: 12;">
+               <padding>
+                  <Insets bottom="20" left="20" right="20" top="20" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="21.0" prefWidth="192.0" spacing="8" style="-fx-background-color: white; -fx-background-radius: 100; -fx-border-color: #E2E2E2; -fx-border-radius: 100;">
+                     <padding>
+                        <Insets bottom="2" left="16" right="2" top="2" />
+                     </padding>
+                     <children>
+                        <TextField fx:id="nameField" promptText="Name" style="-fx-background-color: transparent; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="21.0" prefWidth="192.0" spacing="8" style="-fx-background-color: white; -fx-background-radius: 100; -fx-border-color: #E2E2E2; -fx-border-radius: 100;">
+                     <padding>
+                        <Insets bottom="2" left="16" right="2" top="2" />
+                     </padding>
+                     <children>
+                        <TextField fx:id="emailField" promptText="Email" style="-fx-background-color: transparent; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="21.0" prefWidth="192.0" spacing="8" style="-fx-background-color: white; -fx-background-radius: 100; -fx-border-color: #E2E2E2; -fx-border-radius: 100;">
+                     <padding>
+                        <Insets bottom="2" left="16" right="2" top="2" />
+                     </padding>
+                     <children>
+                        <TextField fx:id="passwordField" promptText="Password" style="-fx-background-color: transparent; -fx-focus-color: transparent; -fx-faint-focus-color: transparent;" HBox.hgrow="ALWAYS" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="21.0" prefWidth="192.0" spacing="8" style="-fx-background-color: white; -fx-background-radius: 100; -fx-border-color: #E2E2E2; -fx-border-radius: 100;">
+                     <padding>
+                        <Insets bottom="2" left="16" right="2" top="2" />
+                     </padding>
+                     <children>
+                        <RadioButton fx:id="radiobuttonCustomer" mnemonicParsing="false" selected="true" style="-fx-background-color: transperent; -fx-box-border: #FF6600;" text="Customer">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="selectRole" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="radiobuttonEmployee" mnemonicParsing="false" style="-fx-background-color: transperent;" text="Employee" toggleGroup="$selectRole" />
+                     </children>
+                  </HBox>
+                  <Button maxWidth="Infinity" mnemonicParsing="false" onAction="#addUser" style="-fx-background-color: #FB991C; -fx-background-radius: 100; -fx-cursor: hand;" text="Add user" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14" />
+                     </font>
+                     <padding>
+                        <Insets bottom="11" left="20" right="20" top="11" />
+                     </padding>
+                     <graphic>
+                        <SVGPath content="M12 5v14M5 12h14" fill="TRANSPARENT" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                     </graphic>
+                  </Button>
+                  <Separator />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Click on user before delete" />
+                  <Button maxWidth="Infinity" mnemonicParsing="false" onAction="#deleteUser" style="-fx-background-color: #FB991C; -fx-background-radius: 100; -fx-cursor: hand;" text="Delete User" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14" />
+                     </font>
+                     <padding>
+                        <Insets bottom="11" left="20" right="20" top="11" />
+                     </padding>
+                     <graphic>
+                        <SVGPath content="M19,13H5a1,1,0,0,1,0-2H19a1,1,0,0,1,0,2Z" fill="TRANSPARENT" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="2" />
+                     </graphic>
+                  </Button>
+                  <HBox />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

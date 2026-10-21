@@ -130,8 +130,11 @@ JavaFX Application/
         │       ├── order.java
         │       ├── Launcher.java
         │       ├── mainApplication.java
+        │       ├── mainController.java
         │       ├── ordersController.java
         │       ├── usersController.java
+        │       ├── productsController.java
+        │       ├── neworderController.java
         │       └── appData.java
 
 ```

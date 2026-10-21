@@ -172,7 +172,7 @@ Make sure you have installed:
 6. Run the application's Main.java:
 
 
-If you want to run a JavaFX project, and you don't want to clone everything, then you need to enter:
+   > If you want to run a JavaFX project, and you don't want to clone everything, then you need to enter:
 
 ```Bash
    git clone --filter=blob:none --no-checkout https://github.com/ikubyshenko/UniversityProjects.git
@@ -182,7 +182,7 @@ If you want to run a JavaFX project, and you don't want to clone everything, the
    git checkout main
 ```
 
-And then enter in the terminal
+   > And then enter in the terminal
 
 ```Bash
 mvn clean javafx:run
@@ -210,13 +210,6 @@ This project was created to practice:
 - Displaying data with JavaFX `TableView`.
 - Managing relationships between users, products, and orders.
 - Organizing a multi-class Maven project.
-
-
-## 👨‍💻 Author
-
-**Ilya Kubyshenko**
-
-University project focused on Java, JavaFX, and Object-Oriented Programming.
 
 ---
 

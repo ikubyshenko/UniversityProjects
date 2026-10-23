@@ -10,7 +10,7 @@ import org.bson.conversions.Bson;
 
 public class DBMSJavaMongo {
 
-    private static final String URI         = "mongodb+srv://Ilya:Ilya@clusterdbms.g7lr7h5.mongodb.net/?appName=ClusterDBMS";
+    private static final String URI         = "";
     private static final String DB_NAME     = "library_db";
     private static final String COLLECTION  = "books";
 

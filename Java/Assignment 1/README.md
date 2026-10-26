@@ -218,7 +218,7 @@ This project was created to practice:
 ---
 
 <p align="center">
-  <b> <img src="https://img.shields.io/badge/Bulit_with_Java?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Built With Java"> </b>
+  <b> <img src="https://img.shields.io/badge/Bulit_with_Java-bright?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Built With Java"> </b>
 </p>
 
 <p align="center">

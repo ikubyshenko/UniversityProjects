@@ -1,4 +1,4 @@
-# 🎓 University Projects
+#  University Projects
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-University-brightgreen?style=plastic&color=purple" alt="University Projects">
@@ -14,7 +14,7 @@
 
 ---
 
-## 👨‍💻 About This Repository
+##  About This Repository
 
 Welcome to my university projects repository!
 
@@ -22,14 +22,14 @@ This repository contains coursework and personal implementations created during 
 
 My main areas of interest include:
 
-- 💻 Software Development
-- 🗄️ Database Management Systems
-- ☕ Java and Object-Oriented Programming
-- 🐍 Python Programming
-- 🛠️ CRUD Operations and Database Integration
-- 🧩 Application Design and Problem Solving
+-  Software Development
+-  Database Management Systems
+-  Java and Object-Oriented Programming
+-  Python Programming
+-  CRUD Operations and Database Integration
+-  Application Design and Problem Solving
 
-## 📂 Projects
+##  Projects
 
 | Project | Description | Technologies | Status |
 |---|---|---|---|
@@ -37,7 +37,7 @@ My main areas of interest include:
 | **Java/Assignment 1** | An application for managing products, users, and orders. | <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java"> <img src="https://img.shields.io/badge/JavaFX-brightgreen?style=plastic&logo=coffeescript&logoColor=orange&color=white" alt="JavaFX"> | <img src="https://img.shields.io/badge/Finished-brightgreen?style=plastic&color=green" alt="Status"> |
 > This repository is continuously updated as I complete new assignments and develop new projects.
 
-## 🧰 Technologies & Tools
+##  Technologies & Tools
 
 <p>
   <img src="https://img.shields.io/badge/Python-brightgreen?style=plastic&logo=python&color=white" alt="Python">
@@ -50,7 +50,7 @@ My main areas of interest include:
 
 Other tools and technologies may be used depending on the project.
 
-## 🎯 Goals
+##  Goals
 
 - Strengthen my programming fundamentals.
 - Gain practical experience with databases and application development.
@@ -59,11 +59,11 @@ Other tools and technologies may be used depending on the project.
 - Build projects that demonstrate my technical skills.
 - Track my progress as a software developer.
 
-## 📈 Progress
+##  Progress
 
 This repository represents my learning journey. Projects may evolve over time as I learn better approaches, explore new technologies, and improve existing implementations.
 
-## 📜 Notes
+##  Notes
 
 - Each project may have its own README with setup instructions and details.
 - Some projects are university assignments created for educational purposes.

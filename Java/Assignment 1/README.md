@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Management System
+#  E-Commerce Management System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java">
@@ -15,7 +15,7 @@
 
 ---
 
-## 📖 About the Project
+##  About the Project
 
 **E-Commerce Management System** is a Java desktop application designed to demonstrate the fundamentals of object-oriented programming and application development.
 
@@ -27,35 +27,35 @@ The project focuses on practicing object-oriented design, inheritance, encapsula
 
 The console application is done correctly, the JavaFX version is crooked, the file names are "orders" instead of "Orders", the comments in Russian are "They were made for me personally". The JavaFX project is not so much for handing over work, as for personal development and learning how it works in principle. I'm unlikely to refine and correct it.
 
-## ✨ Features
+##  Features
 
-### 👥 User Management
+###  User Management
 - Add new users.
 - View users in a table.
 - Delete users.
 - Store user information, including name, email, password, and role.
 - Distinguish between customers and employees.
 
-### 📦 Product Management
+###  Product Management
 - Add products to the catalog.
 - View product information.
 - Delete products.
 - Store product names, prices, and stock quantities.
 - Support different product types, including books, electronics, and clothing.
 
-### 🧾 Order Management
+###  Order Management
 - View existing orders.
 - Associate orders with customers.
 - Track products included in each order.
 - Calculate order totals.
 - Display order information.
 
-### 🛍️ New Order
+###  New Order
 - Select a customer.
 - Choose products for an order.
 - Create an order using the available product information.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -67,7 +67,7 @@ The console application is done correctly, the JavaFX version is crooked, the fi
 | IntelliJ IDEA | Development environment |
 | Git and GitHub | Version control |
 
-## 🏗️ Object-Oriented Design
+##  Object-Oriented Design
 
 The project uses object-oriented programming principles to organize its classes and responsibilities.
 
@@ -90,7 +90,7 @@ The project uses object-oriented programming principles to organize its classes 
 | `Clothing` | Represents a clothing product |
 | `Order` | Stores customer, product, and total order information |
 
-## 📂 Project Structure
+##  Project Structure
 
 The project follows a Maven-based Java application structure. The exact package and file organization may vary as development continues.
 
@@ -139,7 +139,7 @@ JavaFX Application/
 
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -193,7 +193,7 @@ mvn clean javafx:run
 
 The command depends on the configuration in `pom.xml`.
 
-## 🎨 User Interface
+##  User Interface
 
 The application uses JavaFX to provide a graphical interface for navigating between user management, product management, and order management.
 
@@ -202,7 +202,7 @@ The interface uses a navy and orange color scheme to maintain a consistent visua
 <img width="1002" height="732" alt="{05C70205-8513-4FAD-BBEB-BE0108C4873F}" src="https://github.com/user-attachments/assets/048c04af-3294-4920-a4c2-a8c976acdccf" />
 
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project was created to practice:
 
@@ -218,7 +218,7 @@ This project was created to practice:
 ---
 
 <p align="center">
-  <b>Built with Java ☕</b>
+  <b>Built with <img src="https://img.shields.io/badge/Java-brightgreen?style=plastic&logo=openjdk&logoColor=orange&color=white" alt="Java"> </b>
 </p>
 
 <p align="center">

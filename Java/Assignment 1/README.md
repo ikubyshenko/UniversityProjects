@@ -139,6 +139,11 @@ JavaFX Application/
 
 ```
 
+##  UML Class Diagram
+
+<img width="3115" height="2914" alt="ecommerce_uml_class_diagram" src="https://github.com/user-attachments/assets/8e8481ed-8df0-473b-8af7-f201d42ed19a" />
+
+
 ##  Getting Started
 
 ### Prerequisites
